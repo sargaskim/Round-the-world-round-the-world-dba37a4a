@@ -1,6 +1,6 @@
 <?PHP
 
-$totaal = round( (float)$argv[1] / 0.05) * 0.05;
+$totaal = round((float)$argv[1] / 0.05) * 0.05;
 
 if ($totaal != 0) {
 
@@ -69,4 +69,3 @@ else {
     echo"er is geen wisselgeld";
 }
 
-?>
